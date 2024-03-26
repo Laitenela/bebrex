@@ -8,7 +8,7 @@ const BACKGROUND_COLORS = [
   "#faeedd",
 ];
 
-function getStyled(tags: string[]) {
+function getStyled(tags) {
   return tags.map((tag, index) => {
     const borderColor = "#76c42b";
     const textColor = TEXT_COLORS[index % TEXT_COLORS.length];
